@@ -1,7 +1,5 @@
 # plumx-citation-extraction
 
-This is a copy of a repository that I built for the Center for Scientific Integrity's Medical Evidence Project.
-
 ## Overview
 
 Elsevier's PlumX Metrics compile insights into the public impact individual research publications have, such as their citations in policy guidelines and mentions in news stories. This repositiory provides an automated pipeline to search the ScienceDirect or Scopus database spanning a variety of criteria, to identify an article's PlumX Metrics, and to extract an article's objects (i.e. figures). It draws on APIs from both ScienceDirect and Scopus, which are distinct in the articles and article data that they provide. The table below displays the specific APIs implemented in the pipeline:
